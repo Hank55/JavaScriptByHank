@@ -1,5 +1,6 @@
+renderMovie(movieData);
 function renderMovie(data){
-    document.querySelector(".infosection h1").textContent = data.title;
+    document.querySelector(".infosection h1 u").textContent = data.title;
     document.querySelector(".infosection p").textContent = data.review;
     document.querySelector(".poster").setAttribute("src", data.imgUrl);
   
@@ -9,4 +10,21 @@ function renderMovie(data){
     }
     document.querySelector(".infosection ul").innerHTML = actorList;
   }
-  renderMovie(movieData);
+  function changeStarRating(rating){
+    for(let i=1; i<=5; i++){
+      let star = document.getElementById("star" + i);
+      if (i <= rating){
+        star.classList.add("filled");
+      } else {
+        star.classList.remove("filled");
+      }
+    }
+  }
+  
+  for(let i=1; i<=5; i++){
+    let star = document.getElementById("star" + i);
+    star.addEventListener("click", function(){
+      changeStarRating(i);
+    });
+  }
+  

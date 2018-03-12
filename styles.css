@@ -3,7 +3,7 @@
     margin: 10px auto;
     display: flex;
     flex-direction: row;
-    background-color: #12A5F4;
+    background-color: rgb(43, 146, 160);
     padding: 10px;
     border-style: solid;
   }
@@ -12,8 +12,8 @@
     max-width: 200px;
     max-height: 350px;
     border-style: solid;
-    border-color: black;
-    border-width: 40px;
+    border-color: rgb(78, 71, 71);
+    border-width: 20px;
   }
   
   .infosection {
@@ -32,5 +32,15 @@
   }
   u{
       color: black;
+  }
+  .stars span {
+    color: rgb(170, 170, 170);
+    user-select: none;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .stars .filled {
+    color: rgb(255, 251, 41);
   }
  
