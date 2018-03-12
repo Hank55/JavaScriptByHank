@@ -1,0 +1,36 @@
+.container {
+    width: 600px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #12A5F4;
+    padding: 10px;
+    border-style: solid;
+  }
+  
+  .poster {
+    max-width: 200px;
+    max-height: 350px;
+    border-style: solid;
+    border-color: black;
+    border-width: 40px;
+  }
+  
+  .infosection {
+    flex-grow: 5;
+    padding: 15px;
+  }
+  strong{
+      color:black;
+  }
+  ul{
+      color: black;
+  }
+  h1{
+      color: white;
+      text-align: center;
+  }
+  u{
+      color: black;
+  }
+ 
