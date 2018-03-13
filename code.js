@@ -1,3 +1,6 @@
+let movieData = require("./data");
+let $ = require("jquery");
+
 function renderMovie(data){
   $(".infosection h1 u").text(data.title);
   $(".infosection p").text(data.review);
@@ -25,4 +28,3 @@ $(".stars").on("click", "span", function(e){
 renderMovie(movieData);
 
 
-  
