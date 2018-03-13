@@ -25,3 +25,4 @@ $(".stars").on("click", "span", function(e){
 renderMovie(movieData);
 
 
+  
