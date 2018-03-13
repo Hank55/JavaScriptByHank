@@ -26,5 +26,3 @@ $(".stars").on("click", "span", function(e){
   changeStarRating(rating);
 });
 renderMovie(movieData);
-
-
