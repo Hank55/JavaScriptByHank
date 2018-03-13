@@ -11,7 +11,7 @@ function renderMovie(data){
     document.querySelector(".infosection ul").innerHTML = actorList;
   }
   function changeStarRating(rating){
-    for(let i=1; i<=5; i++){
+    for(let i=1; i<=10; i++){
       let star = document.getElementById("star" + i);
       if (i <= rating){
         star.classList.add("filled");
@@ -21,7 +21,7 @@ function renderMovie(data){
     }
   }
   
-  for(let i=1; i<=5; i++){
+  for(let i=1; i<=10; i++){
     let star = document.getElementById("star" + i);
     star.addEventListener("click", function(){
       changeStarRating(i);

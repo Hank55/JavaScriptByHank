@@ -12,7 +12,7 @@
     max-width: 200px;
     max-height: 350px;
     border-style: solid;
-    border-color: rgb(78, 71, 71);
+    border-color: rgb(216, 212, 212);
     border-width: 20px;
   }
   
@@ -34,7 +34,7 @@
       color: black;
   }
   .stars span {
-    color: rgb(170, 170, 170);
+    color: white;
     user-select: none;
     cursor: pointer;
     font-size: 15px;
