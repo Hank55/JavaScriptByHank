@@ -3,17 +3,18 @@
     margin: 10px auto;
     display: flex;
     flex-direction: row;
-    background-color: rgb(43, 146, 160);
+    background-color: rgba(155, 238, 107, 0.685);
     padding: 10px;
     border-style: solid;
+    border-color: rgb(43, 238, 18);
   }
   
   .poster {
-    max-width: 200px;
-    max-height: 350px;
+    max-width: 350px;
+    max-height: 450px;
     border-style: solid;
-    border-color: rgb(216, 212, 212);
-    border-width: 20px;
+    border-color: rgb(255, 46, 192);
+    border-width: 5px;
   }
   
   .infosection {
@@ -41,6 +42,9 @@
   }
   
   .stars .filled {
-    color: rgb(255, 251, 41);
+    color: rgb(251, 255, 0);
+  }
+  p2{
+    color: black;
   }
  
