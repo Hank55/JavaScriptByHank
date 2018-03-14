@@ -5,8 +5,7 @@ module.exports = {
   mode: "development",
   entry: "./code.ts",
   output: {
-    path: path.resolve(__dirname, "distribution"),
-    filename: "bundle.js"
+    filename: 'distribution/bundle.js'
   },
   devServer: {
     contentBase: __dirname, // the root for the server
@@ -28,4 +27,5 @@ module.exports = {
       { test: /\.ts$/, loader: "ts-loader" }
     ]
   },
+  devtool: 'inline-source-map'
 };
