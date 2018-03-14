@@ -16,9 +16,11 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "styles": "lessc styles.less styles.css",
+    "less": "lessc ./styles.less distribution/styles.css",
     "bundle": "webpack",
-    "start:dev": "webpack-dev-server"
+    "start:dev": "webpack-dev-server",
+    "copyindex": "cp index.html distribution/index.html",
+    "build": "npm run bundle && npm run less && npm run copyindex"
   },
   "repository": {
     "type": "git",

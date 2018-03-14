@@ -5,8 +5,8 @@ module.exports = {
   mode: 'development',
   entry: './code.js',
   output: {
-    path: __dirname,
-    filename: 'bundle.js',
+    path: path.resolve(__dirname, "distribution"),
+    filename: 'bundle.js'
   },
   devServer: {
     contentBase: __dirname, // the root for the server
