@@ -9,4 +9,3 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: npm run lintts
-      - run: npm run lintless
